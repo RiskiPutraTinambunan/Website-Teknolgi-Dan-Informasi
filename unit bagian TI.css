@@ -1,0 +1,186 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Header Styling */
+header {
+    background-color: #0044cc;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Section Styling */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Titles */
+section h2 {
+    font-size: 1.8em;
+    color: #0044cc;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #0044cc;
+    padding-bottom: 5px;
+}
+
+/* Unordered List Styling */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Column Layout Styling for Services, Personnel, and Downloads */
+.column {
+    margin-top: 20px;
+}
+
+/* Personnel Card Styling */
+.personel-card {
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.personel-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.personel-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.personel-card p {
+    margin: 5px 0;
+}
+
+.personel-card a {
+    color: #0044cc;
+    text-decoration: none;
+}
+
+.personel-card a:hover {
+    text-decoration: underline;
+}
+
+/* Download Links */
+.column ul li a {
+    color: #0044cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.column ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Service Times Section */
+#waktu-layanan ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#waktu-layanan ul li {
+    font-size: 1.1em;
+    padding: 10px;
+    background-color: #eaf2ff;
+    border: 1px solid #0044cc;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+/* Contact Us Section */
+#hubungi-kami ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 10px;
+}
+
+#hubungi-kami ul li a {
+    color: #0044cc;
+    text-decoration: none;
+}
+
+#hubungi-kami ul li a:hover {
+    text-decoration: underline;
+}
+
+#hubungi-kami p a {
+    color: #0044cc;
+    text-decoration: none;
+}
+
+#hubungi-kami p a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #0044cc;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .column {
+        display: inline-block;
+        width: 32%;
+        vertical-align: top;
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    section h2 {
+        font-size: 1.6em;
+    }
+
+    .personel-card img {
+        width: 80px;
+        height: 80px;
+    }
+}
